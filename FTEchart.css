@@ -3,6 +3,23 @@
   padding: 20px;
 }
 
+<<<<<<< HEAD
+=======
+.filter {
+  font-family: 'Sintony', sans-serif;
+  color: #273582;
+  background-color: #e8e8e8;
+  padding: 20px 20px 0px 20px;
+}
+
+.sorting {
+  font-family: 'Sintony', sans-serif;
+  color: #273582;
+  background-color: #e8e8e8;
+  padding: 20px;
+}
+
+>>>>>>> 4f1ffe15ed71a8ab7e1cb1151f999b672e832532
 h2 {
   font-family: 'Sintony', sans-serif;
   color: #273582;
@@ -13,6 +30,35 @@ h3 {
   color: #273582;
 }
 
+<<<<<<< HEAD
+=======
+ul {
+  font-family: 'Sintony', sans-serif;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+ul li:nth-of-type(odd) {
+  background-color: #e8e8e8;
+}
+
+li {
+  font-family: 'Sintony', sans-serif;
+  color: #273582;
+  padding: 10px;
+  line-height: 40px;
+}
+
+li label {
+  margin-right: 50px;
+}
+
+input[type=checkbox]:checked + label {
+  color: #a3d698;
+  text-decoration: line-through;
+}
+
+>>>>>>> 4f1ffe15ed71a8ab7e1cb1151f999b672e832532
 button {
   font-family: 'Sintony', sans-serif;
   color: #273582;
@@ -25,6 +71,7 @@ button:hover {
   background-color: #b2b0b0;
 }
 
+<<<<<<< HEAD
 input[type=text] {
   font-family: 'Sintony', sans-serif;
   border: none;
@@ -34,6 +81,54 @@ input[type=text] {
 th {
   font-family: 'Sintony', sans-serif;
   color: #273582;
+=======
+select {
+  font-family: 'Sintony', sans-serif;
+  color: #273582;
+  font-size: 80%;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 35px;
+  line-height: 35px;
+  background-color: #DCDCDC;
+  border: none;
+}
+
+option:hover {
+  background-color: #b2b0b0;
+}
+
+.categoryLabel {
+  border-radius: 50px 50px 50px 50px;
+  float: right;
+  margin-right: 50px;
+}
+
+.categoryLabel:hover {
+  background-color: Transparent;
+}
+
+.removeBtn {
+  float: right;
+}
+
+.filterOff {
+  font-family: 'Sintony', sans-serif;
+  color: #273582;
+  border: none;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.filterOn {
+  background-color: #b2b0b0;
+}
+
+input[type=text] {
+  font-family: 'Sintony', sans-serif;
+  border: none;
+  padding:10px;
+>>>>>>> 4f1ffe15ed71a8ab7e1cb1151f999b672e832532
 }
 
 svg {
@@ -43,6 +138,15 @@ svg {
 /* Media Query für Smartphone */
 @media only screen and (max-width: 600px) {
 
+<<<<<<< HEAD
+=======
+  .sorting label {
+    font-family: 'Sintony', sans-serif;
+    color: #273582;
+    margin-right: 10px;
+  }
+
+>>>>>>> 4f1ffe15ed71a8ab7e1cb1151f999b672e832532
   button {
     font-family: 'Sintony', sans-serif;
     color: #273582;
