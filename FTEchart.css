@@ -25,7 +25,7 @@ button:hover {
   background-color: #b2b0b0;
 }
 
-input[type=text] {
+input[type=number] {
   font-family: 'Sintony', sans-serif;
   border: none;
   padding:10px;
