@@ -12,27 +12,27 @@
     <h2>Input</h2>
     <table>
       <tr>
-        <th></th>
-        <th>Available</th>
-        <th>Required</th>
+        <th style="text-align:left"></th>
+        <th style="text-align:left">Available</th>
+        <th style="text-align:left">Required</th>
       </tr>
       <tr>
-        <th>FE</th>
+        <th style="text-align:left">FE</th>
         <td><input type="number" id="newFEa" placeholder="z.B. 2"></td>
         <td><input type="number" id="newFEr" placeholder="z.B. 2"></td>
       </tr>
       <tr>
-        <th>BE</th>
+        <th style="text-align:left">BE</th>
         <td><input type="number" id="newBEa" placeholder="z.B. 2"></td>
         <td><input type="number" id="newBEr" placeholder="z.B. 2"></td>
       </tr>
       <tr>
-        <th>QA</th>
+        <th style="text-align:left">QA</th>
         <td><input type="number" id="newQAa" placeholder="z.B. 2"></td>
         <td><input type="number" id="newQAr" placeholder="z.B. 2"></td>
       </tr>
       <tr>
-        <th>TPM</th>
+        <th style="text-align:left">TPM</th>
         <td><input type="number" id="newTPMa" placeholder="z.B. 2"></td>
         <td><input type="number" id="newTPMr" placeholder="z.B. 2"></td>
       </tr>
@@ -43,7 +43,9 @@
 
   <div>
     <h2>Output</h2>
-    <canvas id="myChart" width="400" height="200" style="display: block; width:400px; height: 200px;"></canvas>
+    <div class="chart-container">
+      <canvas id="myChart"></canvas>
+    </div>
   </div>
 
   <script src="FTEchart.js"></script>

@@ -28,7 +28,8 @@ button:hover {
 input[type=number] {
   font-family: 'Sintony', sans-serif;
   border: none;
-  padding:10px;
+  width: 50%;
+  padding: 10px;
 }
 
 th {
@@ -38,6 +39,13 @@ th {
 
 svg {
   pointer-events: none;
+}
+
+.chart-container {
+  position: fixed;
+  margin: auto;
+  height: 50vh;
+  width: 50vw;
 }
 
 /* Media Query für Smartphone */
@@ -53,11 +61,19 @@ svg {
     margin-bottom: 10px;
   }
 
-  input[type=text] {
+  input[type=number] {
     font-family: 'Sintony', sans-serif;
     border: none;
-    padding:10px;
+    width: 50%;
+    padding: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
+  }
+
+  .chart-container {
+    position: fixed;
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
   }
 }
